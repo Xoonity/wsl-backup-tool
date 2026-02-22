@@ -9,6 +9,7 @@
 
     Full Documentation (EN): https://cosmo-edge.com/expert-windows-11-wsl2-vhdx-backup
     Tutoriel Complet (FR): https://cosmo-games.com/sauvegarde-expert-windows-11-wsl2-vhdx
+    GitHub: https://github.com/Xoonity/wsl-backup-tool
 .NOTES
     Version: 1.1 (2026 Update)
     License: MIT License - Copyright (c) 2026 Xoonity
@@ -230,4 +231,5 @@ Write-Log "  Log file : $logFile" "HEADER"
 Write-Log "══════════════════════════════════════" "HEADER"
 
 # Exit code reflects overall status
+
 exit $failCount
